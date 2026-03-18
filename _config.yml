@@ -20,8 +20,8 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "13包研究所"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "13包"
-description              : "拼湊神秘的片段 變成閃亮亮的幸福"
+name                     : 13包
+description              : 拼湊神秘的片段 變成閃亮亮的幸福
 url                      : "https://13bow.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 13bow/13bow.github.io
