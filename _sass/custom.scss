@@ -1,95 +1,208 @@
-/* 🧁 奶茶色系 */
-$primary-color: #D6BFA7;
-$primary-dark: #C2A487;
-$accent-color: #8B6B4E;
-$bg-color: #FFF8F2;
-$text-color: #5C4A3D;
+   13包 溫暖製造室｜奶茶品牌版
+   ========================= */
 
-/* 🌈 全站 */
+$milk-tea: #D6BFA7;
+$milk-tea-dark: #C2A487;
+$caramel: #8B6B4E;
+$cream: #FFF8F2;
+$latte: #EADBC8;
+$coffee-text: #5C4A3D;
+$card-bg: #FFFFFF;
+
+/* ===== 全站 ===== */
 body {
-  background-color: $bg-color;
-  color: $text-color;
+  background-color: $cream;
+  color: $coffee-text;
   font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.8;
 }
 
-/* ☕ 導覽列（奶茶漸層） */
+a {
+  color: $caramel;
+}
+
+a:hover,
+a:focus {
+  color: $milk-tea-dark;
+}
+
+/* ===== 導覽列 ===== */
 .masthead {
   background: linear-gradient(90deg, #EADBC8 0%, #D6BFA7 100%);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(139, 107, 78, 0.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
 }
 
-/* LOGO旁標題 */
-.site-title {
-  color: #5C4A3D !important;
-  font-weight: 600;
-  letter-spacing: 1px;
+.masthead__inner-wrap {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
-/* 導覽列文字 */
+.site-logo img {
+  height: 42px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.site-title,
+.site-title:visited {
+  color: $coffee-text !important;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
 .masthead__menu-item a {
-  color: #5C4A3D !important;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.masthead__menu-item a:hover {
-  color: #8B6B4E !important;
-}
-
-/* 🍮 按鈕 */
-.btn--primary {
-  background-color: $primary-color;
-  border: none;
+  color: $coffee-text !important;
+  font-weight: 600;
   border-radius: 999px;
-  padding: 10px 22px;
+  padding: 0.45rem 0.9rem;
+  transition: all 0.25s ease;
 }
 
-.btn--primary:hover {
-  background-color: $primary-dark;
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: $caramel !important;
+  background-color: rgba(255, 255, 255, 0.45);
+  text-decoration: none;
 }
 
-/* 🧁 卡片 */
-.feature__item {
-  background: #ffffff;
-  border-radius: 20px;
-  padding: 22px;
-  box-shadow: 0 10px 25px rgba(214, 191, 167, 0.25);
-  transition: all 0.3s ease;
+/* ===== Hero 區 ===== */
+.page__hero--overlay {
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
 }
 
-.feature__item:hover {
-  transform: translateY(-5px);
+.page__hero--overlay .page__title {
+  color: #fffaf6;
+  font-weight: 800;
+  letter-spacing: 0.04em;
 }
 
-/* ☕ 標題 */
-.page__title {
-  color: #8B6B4E;
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__excerpt {
+  color: #fff8f2;
+}
+
+/* ===== 主要標題 ===== */
+.page__title,
+.archive__item-title,
+.feature__item .archive__item-title,
+h1,
+h2,
+h3,
+h4 {
+  color: $caramel;
   font-weight: 700;
 }
 
-/* 🧾 文章卡片 */
-.archive__item {
-  background: white;
+/* ===== 按鈕 ===== */
+.btn,
+.btn--primary {
+  background-color: $milk-tea;
+  color: #fff !important;
+  border: none;
+  border-radius: 999px;
+  padding: 0.75rem 1.3rem;
+  box-shadow: 0 8px 18px rgba(214, 191, 167, 0.28);
+  transition: all 0.25s ease;
+}
+
+.btn:hover,
+.btn--primary:hover {
+  background-color: $milk-tea-dark;
+  color: #fff !important;
+  transform: translateY(-1px);
+}
+
+/* ===== 首頁卡片 ===== */
+.feature__wrapper {
+  margin-top: 1.5rem;
+}
+
+.feature__item {
+  background: $card-bg;
+  border-radius: 24px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 28px rgba(214, 191, 167, 0.22);
+  border: 1px solid rgba(214, 191, 167, 0.18);
+  transition: all 0.28s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-6px);
+}
+
+.feature__item img {
   border-radius: 18px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
 }
 
-/* 🍦 Footer */
-.page__footer {
-  background: #EADBC8;
-  color: #5C4A3D;
+.feature__item .archive__item-excerpt,
+.feature__item .archive__item-body {
+  color: $coffee-text;
 }
 
-/* 🔗 連結 */
-a {
-  color: #8B6B4E;
-}
-
-a:hover {
-  color: #C2A487;
-}
-
-/* 圓潤質感 */
-.btn, .feature__item, .archive__item {
+/* ===== 文章列表 ===== */
+.archive__item {
+  background: $card-bg;
   border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(214, 191, 167, 0.12);
+  padding: 1rem;
+}
+
+/* ===== 單篇文章 ===== */
+.page__content,
+.sidebar,
+.author__urls-wrapper {
+  background: rgba(255, 255, 255, 0.62);
+  border-radius: 20px;
+}
+
+.page__content {
+  padding: 1.2rem 1.4rem;
+}
+
+/* ===== 表單 / 搜尋 ===== */
+input,
+textarea,
+select {
+  border: 1px solid #e7d4c3;
+  border-radius: 14px;
+  background-color: #fffdfb;
+  color: $coffee-text;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: $milk-tea-dark;
+  box-shadow: 0 0 0 4px rgba(214, 191, 167, 0.16);
+}
+
+/* ===== 頁尾 ===== */
+.page__footer {
+  background: $latte;
+  color: $coffee-text;
+  border-top: 1px solid rgba(139, 107, 78, 0.08);
+}
+
+.page__footer a {
+  color: $caramel;
+}
+
+/* ===== 圖片 ===== */
+img {
+  border-radius: 16px;
+}
+
+/* ===== 手機版 ===== */
+@media (max-width: 768px) {
+  .site-logo img {
+    height: 36px;
+  }
+
+  .page__content {
+    padding: 1rem;
+  }
 }
