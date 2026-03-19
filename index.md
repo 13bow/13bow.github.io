@@ -7,7 +7,7 @@ excerpt: "把心意，慢慢縫進生活裡"
 header:
   overlay_color: "#94ddfc"
   overlay_filter: "0.35"
-  overlay_image: /assets/images/13bowlogo.jpg
+  overlay_image: /assets/images/lo.jpg
   actions:
     - label: "POST"
       url: /posts/
