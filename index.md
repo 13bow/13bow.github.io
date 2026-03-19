@@ -2,10 +2,10 @@
 layout: splash
 title: "13包 溫暖製造室"
 excerpt: "把心意，慢慢縫進生活裡"
-image_path: /assets/images/13bowlogo.jpg
+
 
 header:
-  overlay_color: "#A8D5BA"
+  overlay_color: "#94ddfc"
   overlay_filter: "0.35"
   overlay_image: /assets/images/banner.jpg
   actions:
