@@ -19,7 +19,7 @@ intro:
 # 第一排（3個卡片）
 feature_row:
   - image_path: /assets/images/feature-1.jpg
-    alt: ""
+    alt: "feature-1"
     title: "Blog"
     excerpt: "Read my latest posts."
     url: /posts/
