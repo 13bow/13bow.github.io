@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : 13bow
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/13bowlogo.jpg"
   bio              : "滿溢的祝福"
   location         : Kaohsiung, Taiwan
   email            :
