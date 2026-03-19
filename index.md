@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "13包 溫暖製造室"
+title: "溫暖製造室"
 excerpt: "把心意，慢慢縫進生活裡"
 
 header:
