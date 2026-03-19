@@ -15,7 +15,7 @@ header:
       url: /about/
 
 intro:
-  - excerpt: "一針一線 縫進日常 製造每一份溫暖"
+  - excerpt: "一針一線 製造每一份溫暖"
 
 # 第一排（3個卡片）
 feature_row:
