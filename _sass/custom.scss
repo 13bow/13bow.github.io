@@ -28,9 +28,7 @@ a:focus {
   color: $milk-tea-dark;
 }
 
-.masthead__inner-wrap{
-   navbackground-color: transparent;
-   }
+
 /* ===== 導覽列 ===== */
 .masthead {
   background: linear-gradient(90deg, #EADBC8 0%, #D6BFA7 100%);
@@ -41,6 +39,7 @@ a:focus {
 .masthead__inner-wrap {
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
+  navigation-background-color: transparent;
 }
 
 .site-logo img {
