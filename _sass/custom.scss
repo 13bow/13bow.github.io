@@ -54,9 +54,117 @@ a:hover,
 a:focus {
   color: var(--link-hover);
 }
+/* ===== 導覽列整體 ===== */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background:linear-gradient(90deg, #F7C6C7 0%, #FAD4C0 55%, #FFF3B0 100%);;
+  border-bottom: 1px solid #F1E4DA;
+  box-shadow: 0 4px 14px rgba(120, 110, 100, 0.08);
+}
+
+/* 內層留白 */
+.masthead__inner-wrap {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+/* 網站標題 */
+.site-title,
+.site-title:visited {
+  color: #5C5A57 !important;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
+/* 右上角選單區 */
+.greedy-nav {
+  background: transparent;
+}
+
+/* 選單按鈕 */
+.masthead__menu-item a {
+  display: inline-block;
+  color: #5C5A57 !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.48rem 0.95rem;
+  margin: 0 0.15rem;
+  border-radius: 999px;
+  background-color: rgba(255, 252, 249, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  transition: all 0.22s ease;
+}
+
+/* hover */
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: #6D675F !important;
+  background-color: #FFFDFB;
+  border-color: #F3D9D9;
+  box-shadow: 0 4px 12px rgba(120, 110, 100, 0.10);
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* 目前頁面 active 感 */
+.masthead__menu-item a[aria-current="page"] {
+  background-color: #FFFDFB;
+  border-color: #EFCACA;
+  color: #7A6F69 !important;
+  box-shadow: 0 4px 10px rgba(120, 110, 100, 0.08);
+}
+
+/* 漢堡按鈕 */
+.greedy-nav__toggle {
+  border-radius: 999px;
+  background-color: rgba(255, 252, 249, 0.75);
+  border: 1px solid #F1E4DA;
+  color: #6B655F;
+}
+
+.greedy-nav__toggle:hover {
+  background-color: #FFFDFB;
+}
+
+/* 手機展開選單 */
+.greedy-nav .hidden-links {
+  border-radius: 18px;
+  border: 1px solid #F1E4DA;
+  background: #FFFCF9;
+  box-shadow: 0 8px 24px rgba(120, 110, 100, 0.10);
+  overflow: hidden;
+}
+
+.greedy-nav .hidden-links a {
+  color: #5C5A57 !important;
+  padding: 0.8rem 1rem;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background: #FFF4EF;
+  color: #7A6F69 !important;
+}
+
+/* 手機版間距微調 */
+@media (max-width: 768px) {
+  .masthead__inner-wrap {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+
+  .masthead__menu-item a {
+    font-size: 0.92rem;
+  }
+}
 
 /* ===== 頂部導覽列 ===== */
-.masthead {
+/*.masthead {
   background-color: #A8D5BA;
 }
 
@@ -64,6 +172,7 @@ a:focus {
 .masthead__inner-wrap {
   padding-top: 0.6em;
   padding-bottom: 0.6em;
+  background: rgba(255, 255, 2255, 0.5)
 }
 
 .site-title,
@@ -78,7 +187,7 @@ a:focus {
 
 .masthead__menu-item a:hover {
   color: #F7C6C7;
-}
+}*/
 
 /* ===== 主要內容區 ===== */
 .initial-content,
@@ -94,7 +203,7 @@ a:focus {
 .notice,
 .search-content__inner-wrap {
   border-radius: 20px;
-}
+}*/
 
 /* ===== 文章 / 區塊卡片感 ===== */
 .layout--single .page,
