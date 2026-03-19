@@ -5,7 +5,7 @@
 $milk-tea: #D6BFA7;
 $milk-tea-dark: #C2A487;
 $caramel: #8B6B4E;
-$cream: #fafafa (255, 255, 255);
+$cream: #fafafa ;
 $latte: #EADBC8;
 $coffee-text: #755a47;
 $card-bg: #FFFFFF;
@@ -17,7 +17,9 @@ body {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.8;
 }
-
+.masthead__inner-wrap{
+   navbackground-color: transparent;
+   }
 a {
   color: $caramel;
 }
