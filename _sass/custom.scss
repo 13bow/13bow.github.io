@@ -14,7 +14,7 @@ body {
 
 /* 🌿 導覽列（超重要） */
 .masthead {
-  background: linear-gradient(90deg, #A8D5BA 0%, #F7C6C7 100%);
+  background: linear-gradient(90deg, #7ab5e2 0%, #F7C6C7 100%);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
@@ -26,7 +26,7 @@ body {
 
 /* 導覽列文字 */
 .masthead__menu-item a {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
   font-weight: 500;
   transition: all 0.3s ease;
 }
