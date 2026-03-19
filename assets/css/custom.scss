@@ -1,0 +1,28 @@
+@import "custom";
+body {
+  background-color: #FFF8F2;
+}
+
+.masthead {
+  background-color: #A8D5BA;
+}
+
+.masthead__menu-item a {
+  color: #444;
+}
+
+.masthead__menu-item a:hover {
+  color: #F7C6C7;
+}
+
+.page__content {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+}
+img, .btn {
+  border-radius: 12px;
+}
+.page {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
