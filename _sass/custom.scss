@@ -17,9 +17,8 @@ body {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.8;
 }
-.masthead__inner-wrap{
-   navbackground-color: transparent;
-   }
+
+
 a {
   color: $caramel;
 }
@@ -29,6 +28,9 @@ a:focus {
   color: $milk-tea-dark;
 }
 
+.masthead__inner-wrap{
+   navbackground-color: transparent;
+   }
 /* ===== 導覽列 ===== */
 .masthead {
   background: linear-gradient(90deg, #EADBC8 0%, #D6BFA7 100%);
