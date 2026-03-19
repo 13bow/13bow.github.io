@@ -1,5 +1,5 @@
 /* 🌿 主色系（溫暖柔和） */
-$primary-color: #fdafd7;      // 主粉
+$primary-color: #89dfff;      // 主粉
 $secondary-color: #F7C6C7;    // 粉色
 $accent-color: #FFD8B1;       // 奶茶橘
 $bg-color: #FFF8F2;           // 奶油底
@@ -14,7 +14,7 @@ body {
 
 /* 🌿 導覽列（超重要） */
 .masthead {
-  background: linear-gradient(90deg, #fdafd7 0%, #F7C6C7 100%);
+  background: linear-gradient(90deg, rgba(137, 209, 237, 0.6) 0%, #6ec4f6 100%);
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
@@ -64,7 +64,7 @@ body {
 
 /* 🌷 標題 */
 .page__title {
-  color: #aadaff;
+  color: #89dfff;;
   font-weight: 700;
 }
 
@@ -77,7 +77,7 @@ body {
 
 /* 🌿 Footer */
 .page__footer {
-  background: #eccbdd;
+  background: #abd9f9;
   color: white;
 }
 
