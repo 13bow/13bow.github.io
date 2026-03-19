@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Hello, I'm Your Name"
-excerpt: "A warm and gentle website."
+title: "13包 溫暖製造室"
+excerpt: "把心意，慢慢縫進生活裡"
 
 header:
   overlay_color: "#A8D5BA"
@@ -14,12 +14,12 @@ header:
       url: /about/
 
 intro:
-  - excerpt: "Welcome! This is a simple, warm and friendly website."
+  - excerpt: "一針一線 縫進日常 製造每一份溫暖"
 
 # 第一排（3個卡片）
 feature_row:
   - image_path: /assets/images/feature-1.jpg
-    alt: "feature 1"
+    alt: ""
     title: "Blog"
     excerpt: "Read my latest posts."
     url: /posts/
