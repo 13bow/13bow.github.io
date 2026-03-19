@@ -1,27 +1,16 @@
-# main links
 main:
-  - title: "Home"
+  - title: "首頁"
     url: /
 
-  - title: "Posts"
-    url: /posts/
-
-  - title: "About"
+  - title: "品牌故事"
     url: /about/
 
-  - title: "Resources"
-    url: /resources/
+  - title: "作品集"
+    url: /projects/
 
-  - title: "Contact"
+  - title: "最新消息"
+    url: /posts/
+
+  - title: "聯絡我們"
     url: /contact/
-  - #title: #"Quick-Start Guide"
-    #url: #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
  

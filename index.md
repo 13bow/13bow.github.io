@@ -1,64 +1,61 @@
 ---
 layout: splash
-title: "溫暖製造室"
+title: "13包 溫暖製造室"
 excerpt: "把心意，慢慢縫進生活裡"
 
-
 header:
-  overlay_color: "#94ddfc"
+  overlay_color: "#C2A487"
   overlay_filter: "0.35"
   overlay_image: /assets/images/lo.jpg
   actions:
-    - label: "POST"
-      url: /posts/
-    - label: "品牌故事"
+    - label: "作品集"
+      url: /projects/
+    - label: "關於我們"
       url: /about/
 
 intro:
-  - excerpt: "一針一線 製造每一份溫暖"
+  - excerpt: "一針一線，縫進日常；每一份作品，都帶著溫柔祝福。"
 
-# 第一排（3個卡片）
 feature_row:
   - image_path: /assets/images/feature-1.jpg
-    alt: "feature 1"
-    title: "Blog"
-    excerpt: "Read my latest posts."
-    url: /posts/
-    btn_label: "Read"
+    alt: "手作作品"
+    title: "手作作品"
+    excerpt: "把溫暖做進每一個細節，陪你收藏日常。"
+    url: /projects/
+    btn_label: "看看作品"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/feature-2.jpg
-    alt: "feature 2"
-    title: "Resources"
-    excerpt: "Useful materials and guides."
-    url: /resources/
-    btn_label: "Explore"
+    alt: "品牌故事"
+    title: "品牌故事"
+    excerpt: "從興趣出發，慢慢做成有溫度的心意。"
+    url: /about/
+    btn_label: "閱讀故事"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/feature-3.jpg
-    alt: "feature 3"
-    title: "Projects"
-    excerpt: "Things I'm working on."
-    url: /projects/
-    btn_label: "View"
+    alt: "最新消息"
+    title: "最新消息"
+    excerpt: "記錄每一次新作品、靈感與溫暖片段。"
+    url: /posts/
+    btn_label: "閱讀文章"
     btn_class: "btn--primary"
 
-# 第二排（2個卡片）
 feature_row2:
   - image_path: /assets/images/feature-4.jpg
-    alt: "feature 4"
-    title: "Guides"
-    excerpt: "Step-by-step tutorials."
-    url: /guides/
-    btn_label: "Open"
+    alt: "客製服務"
+    title: "客製服務"
+    excerpt: "把你的想法，變成專屬的手作小禮物。"
+    url: /services/
+    btn_label: "了解服務"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/feature-5.jpg
-    alt: "feature 5"
-    title: "Downloads"
-    excerpt: "Files and documents."
-    url: /downloads/
-    btn_label: "Download"
+    alt: "聯絡我們"
+    title: "聯絡我們"
+    excerpt: "想聊聊合作、訂製或品牌故事，歡迎來信。"
+    url: /contact/
+    btn_label: "聯絡我們"
     btn_class: "btn--primary"
 ---
 
