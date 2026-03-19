@@ -1,60 +1,59 @@
-/* 🌿 主色系（溫暖柔和） */
-$primary-color: #89dfff;      // 主粉
-$secondary-color: #F7C6C7;    // 粉色
-$accent-color: #FFD8B1;       // 奶茶橘
-$bg-color: #FFF8F2;           // 奶油底
-$text-color: #5A5A5A;
+/* 🧁 奶茶色系 */
+$primary-color: #D6BFA7;
+$primary-dark: #C2A487;
+$accent-color: #8B6B4E;
+$bg-color: #FFF8F2;
+$text-color: #5C4A3D;
 
-/* 🌈 全站背景 */
+/* 🌈 全站 */
 body {
   background-color: $bg-color;
   color: $text-color;
   font-family: "Noto Sans TC", sans-serif;
 }
 
-/* 🌿 導覽列（超重要） */
+/* ☕ 導覽列（奶茶漸層） */
 .masthead {
-  background: linear-gradient(90deg, rgba(137, 209, 237, 0.6) 0%, #6ec4f6 100%);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  background: linear-gradient(90deg, #EADBC8 0%, #D6BFA7 100%);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05);
 }
 
-/* LOGO / 標題 */
+/* LOGO旁標題 */
 .site-title {
+  color: #5C4A3D !important;
   font-weight: 600;
-  color: rgb(49, 44, 44) !important;
+  letter-spacing: 1px;
 }
 
 /* 導覽列文字 */
 .masthead__menu-item a {
-  color: rgba(255, 218, 158, 0.9) !important;
+  color: #5C4A3D !important;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
-/* hover 效果（很療癒✨） */
 .masthead__menu-item a:hover {
-  color: #484847e3 !important;
-  transform: translateY(-1px);
+  color: #8B6B4E !important;
 }
 
-/* 🌸 按鈕 */
+/* 🍮 按鈕 */
 .btn--primary {
   background-color: $primary-color;
-  border-radius: 20px;
   border: none;
-  padding: 10px 20px;
+  border-radius: 999px;
+  padding: 10px 22px;
 }
 
 .btn--primary:hover {
-  background-color: darken($primary-color, 10%);
+  background-color: $primary-dark;
 }
 
-/* 🌼 卡片（feature_row） */
+/* 🧁 卡片 */
 .feature__item {
-  background: white;
+  background: #ffffff;
   border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(214, 191, 167, 0.25);
   transition: all 0.3s ease;
 }
 
@@ -62,49 +61,35 @@ body {
   transform: translateY(-5px);
 }
 
-/* 🌷 標題 */
+/* ☕ 標題 */
 .page__title {
-  color: #89dfff;;
+  color: #8B6B4E;
   font-weight: 700;
 }
 
-/* 🌼 文章卡片 */
+/* 🧾 文章卡片 */
 .archive__item {
-  border-radius: 16px;
   background: white;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
 }
 
-/* 🌿 Footer */
+/* 🍦 Footer */
 .page__footer {
-  background: #abd9f9;
-  color: white;
+  background: #EADBC8;
+  color: #5C4A3D;
 }
 
-/* 🌸 連結 */
+/* 🔗 連結 */
 a {
-  color: $primary-color;
+  color: #8B6B4E;
 }
 
 a:hover {
-  color: darken($primary-color, 10%);
-}
-/* 全站圓角 */
-* {
-  border-radius: 8px;
+  color: #C2A487;
 }
 
-/* 圖片柔和 */
-img {
-  border-radius: 16px;
-}
-
-/* 按鈕更可愛 */
-.btn {
-  border-radius: 999px;
-}
-
-/* 卡片陰影更柔 */
-.feature__item {
-  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.2);
+/* 圓潤質感 */
+.btn, .feature__item, .archive__item {
+  border-radius: 20px;
 }
