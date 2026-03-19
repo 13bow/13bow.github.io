@@ -1,3 +1,110 @@
+/* 🌿 主色系（溫暖柔和） */
+$primary-color: #5BAF9E;      // 主綠
+$secondary-color: #F7C6C7;    // 粉色
+$accent-color: #FFD8B1;       // 奶茶橘
+$bg-color: #FFF8F2;           // 奶油底
+$text-color: #5A5A5A;
+
+/* 🌈 全站背景 */
 body {
-  background-color: #FFF8F2;
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 🌿 導覽列（超重要） */
+.masthead {
+  background: linear-gradient(90deg, #A8D5BA 0%, #F7C6C7 100%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* LOGO / 標題 */
+.site-title {
+  font-weight: 600;
+  color: white !important;
+}
+
+/* 導覽列文字 */
+.masthead__menu-item a {
+  color: white !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* hover 效果（很療癒✨） */
+.masthead__menu-item a:hover {
+  color: #FFE5D9 !important;
+  transform: translateY(-1px);
+}
+
+/* 🌸 按鈕 */
+.btn--primary {
+  background-color: $primary-color;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.btn--primary:hover {
+  background-color: darken($primary-color, 10%);
+}
+
+/* 🌼 卡片（feature_row） */
+.feature__item {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.feature__item:hover {
+  transform: translateY(-5px);
+}
+
+/* 🌷 標題 */
+.page__title {
+  color: #4A7C74;
+  font-weight: 700;
+}
+
+/* 🌼 文章卡片 */
+.archive__item {
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+/* 🌿 Footer */
+.page__footer {
+  background: #A8D5BA;
+  color: white;
+}
+
+/* 🌸 連結 */
+a {
+  color: $primary-color;
+}
+
+a:hover {
+  color: darken($primary-color, 10%);
+}
+/* 全站圓角 */
+* {
+  border-radius: 8px;
+}
+
+/* 圖片柔和 */
+img {
+  border-radius: 16px;
+}
+
+/* 按鈕更可愛 */
+.btn {
+  border-radius: 999px;
+}
+
+/* 卡片陰影更柔 */
+.feature__item {
+  box-shadow: 0 8px 20px rgba(255, 182, 193, 0.2);
 }
