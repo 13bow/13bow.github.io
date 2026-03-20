@@ -17,7 +17,7 @@ intro:
   - excerpt: "一針一線，縫進日常；每一份作品，都帶著溫柔祝福。"
 
 feature_row:
-  - image_path: /assets/images/feature-3.jpg
+  - image_path: /assets/images/news1.png
     alt: "最新消息"
     title: "最新消息"
     excerpt: "記錄每一次新作品、靈感與溫暖片段。"
@@ -25,7 +25,7 @@ feature_row:
     btn_label: "閱讀文章"
     btn_class: "btn--primary"  
 
-  - image_path: /assets/images/feature-2.jpg
+  - image_path: /assets/images/story1.png
     alt: "品牌故事"
     title: "品牌故事"
     excerpt: "從興趣出發，慢慢做成有溫度的心意。"
@@ -33,7 +33,7 @@ feature_row:
     btn_label: "閱讀故事"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/feature-1.jpg
+  - image_path: /assets/images/work1.png
     alt: "手作商品"
     title: "手作商品"
     excerpt: "把溫暖做進每一個細節，陪你收藏日常。"
@@ -44,7 +44,7 @@ feature_row:
 
 
 feature_row2:
-  - image_path: /assets/images/feature-4.jpg
+  - image_path: /assets/images/want1.png
     alt: "客製服務"
     title: "客製服務"
     excerpt: "把你的想法，變成專屬的手作小禮物。"
