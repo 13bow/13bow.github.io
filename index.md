@@ -17,13 +17,13 @@ intro:
   - excerpt: "一針一線，縫進日常；每一份作品，都帶著溫柔祝福。"
 
 feature_row:
-  - image_path: /assets/images/feature-1.jpg
-    alt: "手作作品"
-    title: "手作作品"
-    excerpt: "把溫暖做進每一個細節，陪你收藏日常。"
-    url: /projects/
-    btn_label: "看看作品"
-    btn_class: "btn--primary"
+  - image_path: /assets/images/feature-3.jpg
+    alt: "最新消息"
+    title: "最新消息"
+    excerpt: "記錄每一次新作品、靈感與溫暖片段。"
+    url: /posts/
+    btn_label: "閱讀文章"
+    btn_class: "btn--primary"  
 
   - image_path: /assets/images/feature-2.jpg
     alt: "品牌故事"
@@ -33,13 +33,15 @@ feature_row:
     btn_label: "閱讀故事"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/feature-3.jpg
-    alt: "最新消息"
-    title: "最新消息"
-    excerpt: "記錄每一次新作品、靈感與溫暖片段。"
-    url: /posts/
-    btn_label: "閱讀文章"
+  - image_path: /assets/images/feature-1.jpg
+    alt: "手作商品"
+    title: "手作商品"
+    excerpt: "把溫暖做進每一個細節，陪你收藏日常。"
+    url: /projects/
+    btn_label: "看看作品"
     btn_class: "btn--primary"
+
+
 
 feature_row2:
   - image_path: /assets/images/feature-4.jpg
@@ -63,4 +65,4 @@ feature_row2:
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="center" %}

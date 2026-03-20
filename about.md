@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "About"
+title: "品牌故事"
 permalink: /about/
 ---
 
