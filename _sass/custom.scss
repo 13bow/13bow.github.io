@@ -140,11 +140,11 @@ h4 {
   transform: translateY(-6px);
 }
 
-.feature__item img {
+.archive__item-teaser img   {
+  border-radius: 16px;
   width: 40%;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 14px;
+  float: left;
+  margin-right: 1rem;  
 }
 
 .feature__item .archive__item-excerpt,
